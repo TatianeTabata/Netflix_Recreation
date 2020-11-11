@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">GREY'S ANATOMY</h3>
+                <p class="descricao">Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e
+                    consequências de vida ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às
+                    vezes, até mais que amizade... Juntos, eles descobrem o quanto a vida profissional e a pessoal podem
+                    ser complicadas e se misturarem no meio do caminho</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onCLick="window.open('https://youtu.be/2aJYF-p-Cwc','_blank');">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao"
+                        onCLick="window.open('https://pt.wikipedia.org/wiki/Grey%27s_Anatomy','_blank');">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <a href="https://youtu.be/gG1viFNRhXc" target="blank" class="item">
+                <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+            </a>
+            <a href="https://youtu.be/Lg1U_LrBU6I?list=PLaV6G4K_o3WKElbhvefAB6bMXxO1GLXmu" target="blank" class="item">
+                <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+            </a>
+            <a href="https://youtu.be/VIsBnJ7DyDw" target="blank" class="item">
+                <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+            </a>
+            <a href="https://youtu.be/1ldbg9dq4ko" target="blank" class="item">
+                <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+            </a>
+            <a href="https://youtu.be/QOiDmZJIM8I" target="blank" class="item">
+                <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+            </a>
+            <a href="https://youtu.be/EFWStn4DAT0" target="blank" class="item">
+                <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+            </a>
+            <a href="https://youtu.be/eN4v-tP-fzY" target="blank" class="item">
+                <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+            </a>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/bc8117c52b.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+
+</html>
